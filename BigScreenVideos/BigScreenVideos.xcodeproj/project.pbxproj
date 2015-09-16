@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EDA890F1BA92E8600EBDBD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA890E1BA92E8600EBDBD7 /* AppDelegate.swift */; };
+		7EDA89111BA92E8600EBDBD7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA89101BA92E8600EBDBD7 /* FirstViewController.swift */; };
+		7EDA89131BA92E8600EBDBD7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA89121BA92E8600EBDBD7 /* SecondViewController.swift */; };
+		7EDA89161BA92E8600EBDBD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA89141BA92E8600EBDBD7 /* Main.storyboard */; };
+		7EDA89181BA92E8600EBDBD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA89171BA92E8600EBDBD7 /* Assets.xcassets */; };
+		7EDA89231BA92E8600EBDBD7 /* BigScreenVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA89221BA92E8600EBDBD7 /* BigScreenVideosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EDA891F1BA92E8600EBDBD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EDA89031BA92E8600EBDBD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EDA890A1BA92E8600EBDBD7;
+			remoteInfo = BigScreenVideos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EDA890B1BA92E8600EBDBD7 /* BigScreenVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigScreenVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDA890E1BA92E8600EBDBD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EDA89101BA92E8600EBDBD7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7EDA89121BA92E8600EBDBD7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7EDA89151BA92E8600EBDBD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EDA89171BA92E8600EBDBD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EDA89191BA92E8600EBDBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDA891E1BA92E8600EBDBD7 /* BigScreenVideosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigScreenVideosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDA89221BA92E8600EBDBD7 /* BigScreenVideosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigScreenVideosTests.swift; sourceTree = "<group>"; };
+		7EDA89241BA92E8600EBDBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EDA89081BA92E8600EBDBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA891B1BA92E8600EBDBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EDA89021BA92E8600EBDBD7 = {
+			isa = PBXGroup;
+			children = (
+				7EDA890D1BA92E8600EBDBD7 /* BigScreenVideos */,
+				7EDA89211BA92E8600EBDBD7 /* BigScreenVideosTests */,
+				7EDA890C1BA92E8600EBDBD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDA890C1BA92E8600EBDBD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA890B1BA92E8600EBDBD7 /* BigScreenVideos.app */,
+				7EDA891E1BA92E8600EBDBD7 /* BigScreenVideosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EDA890D1BA92E8600EBDBD7 /* BigScreenVideos */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA890E1BA92E8600EBDBD7 /* AppDelegate.swift */,
+				7EDA89101BA92E8600EBDBD7 /* FirstViewController.swift */,
+				7EDA89121BA92E8600EBDBD7 /* SecondViewController.swift */,
+				7EDA89141BA92E8600EBDBD7 /* Main.storyboard */,
+				7EDA89171BA92E8600EBDBD7 /* Assets.xcassets */,
+				7EDA89191BA92E8600EBDBD7 /* Info.plist */,
+			);
+			path = BigScreenVideos;
+			sourceTree = "<group>";
+		};
+		7EDA89211BA92E8600EBDBD7 /* BigScreenVideosTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA89221BA92E8600EBDBD7 /* BigScreenVideosTests.swift */,
+				7EDA89241BA92E8600EBDBD7 /* Info.plist */,
+			);
+			path = BigScreenVideosTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EDA890A1BA92E8600EBDBD7 /* BigScreenVideos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDA89271BA92E8600EBDBD7 /* Build configuration list for PBXNativeTarget "BigScreenVideos" */;
+			buildPhases = (
+				7EDA89071BA92E8600EBDBD7 /* Sources */,
+				7EDA89081BA92E8600EBDBD7 /* Frameworks */,
+				7EDA89091BA92E8600EBDBD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigScreenVideos;
+			productName = BigScreenVideos;
+			productReference = 7EDA890B1BA92E8600EBDBD7 /* BigScreenVideos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EDA891D1BA92E8600EBDBD7 /* BigScreenVideosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDA892A1BA92E8600EBDBD7 /* Build configuration list for PBXNativeTarget "BigScreenVideosTests" */;
+			buildPhases = (
+				7EDA891A1BA92E8600EBDBD7 /* Sources */,
+				7EDA891B1BA92E8600EBDBD7 /* Frameworks */,
+				7EDA891C1BA92E8600EBDBD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EDA89201BA92E8600EBDBD7 /* PBXTargetDependency */,
+			);
+			name = BigScreenVideosTests;
+			productName = BigScreenVideosTests;
+			productReference = 7EDA891E1BA92E8600EBDBD7 /* BigScreenVideosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EDA89031BA92E8600EBDBD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cameron Klein";
+				TargetAttributes = {
+					7EDA890A1BA92E8600EBDBD7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7EDA891D1BA92E8600EBDBD7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7EDA890A1BA92E8600EBDBD7;
+					};
+				};
+			};
+			buildConfigurationList = 7EDA89061BA92E8600EBDBD7 /* Build configuration list for PBXProject "BigScreenVideos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EDA89021BA92E8600EBDBD7;
+			productRefGroup = 7EDA890C1BA92E8600EBDBD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EDA890A1BA92E8600EBDBD7 /* BigScreenVideos */,
+				7EDA891D1BA92E8600EBDBD7 /* BigScreenVideosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EDA89091BA92E8600EBDBD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA89181BA92E8600EBDBD7 /* Assets.xcassets in Resources */,
+				7EDA89161BA92E8600EBDBD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA891C1BA92E8600EBDBD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EDA89071BA92E8600EBDBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA89131BA92E8600EBDBD7 /* SecondViewController.swift in Sources */,
+				7EDA890F1BA92E8600EBDBD7 /* AppDelegate.swift in Sources */,
+				7EDA89111BA92E8600EBDBD7 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA891A1BA92E8600EBDBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA89231BA92E8600EBDBD7 /* BigScreenVideosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EDA89201BA92E8600EBDBD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EDA890A1BA92E8600EBDBD7 /* BigScreenVideos */;
+			targetProxy = 7EDA891F1BA92E8600EBDBD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EDA89141BA92E8600EBDBD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDA89151BA92E8600EBDBD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EDA89251BA92E8600EBDBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		7EDA89261BA92E8600EBDBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EDA89281BA92E8600EBDBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BigScreenVideos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cameronklein.BigScreenVideos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EDA89291BA92E8600EBDBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BigScreenVideos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cameronklein.BigScreenVideos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EDA892B1BA92E8600EBDBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BigScreenVideosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cameronklein.BigScreenVideosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigScreenVideos.app/BigScreenVideos";
+			};
+			name = Debug;
+		};
+		7EDA892C1BA92E8600EBDBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BigScreenVideosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cameronklein.BigScreenVideosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigScreenVideos.app/BigScreenVideos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EDA89061BA92E8600EBDBD7 /* Build configuration list for PBXProject "BigScreenVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA89251BA92E8600EBDBD7 /* Debug */,
+				7EDA89261BA92E8600EBDBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDA89271BA92E8600EBDBD7 /* Build configuration list for PBXNativeTarget "BigScreenVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA89281BA92E8600EBDBD7 /* Debug */,
+				7EDA89291BA92E8600EBDBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EDA892A1BA92E8600EBDBD7 /* Build configuration list for PBXNativeTarget "BigScreenVideosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA892B1BA92E8600EBDBD7 /* Debug */,
+				7EDA892C1BA92E8600EBDBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EDA89031BA92E8600EBDBD7 /* Project object */;
+}
