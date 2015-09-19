@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E221C591BA9328C00844123 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E221C581BA9328C00844123 /* Video.swift */; };
+		7E221C5B1BA9356C00844123 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E221C5A1BA9356C00844123 /* NetworkController.swift */; };
 		7EDA890F1BA92E8600EBDBD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA890E1BA92E8600EBDBD7 /* AppDelegate.swift */; };
 		7EDA89111BA92E8600EBDBD7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA89101BA92E8600EBDBD7 /* FirstViewController.swift */; };
 		7EDA89131BA92E8600EBDBD7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA89121BA92E8600EBDBD7 /* SecondViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E221C581BA9328C00844123 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		7E221C5A1BA9356C00844123 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		7EDA890B1BA92E8600EBDBD7 /* BigScreenVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigScreenVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDA890E1BA92E8600EBDBD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EDA89101BA92E8600EBDBD7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E221C551BA9322000844123 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E221C581BA9328C00844123 /* Video.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7E221C561BA9322700844123 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7E221C571BA9323500844123 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA89101BA92E8600EBDBD7 /* FirstViewController.swift */,
+				7EDA89121BA92E8600EBDBD7 /* SecondViewController.swift */,
+				7E221C5A1BA9356C00844123 /* NetworkController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		7EDA89021BA92E8600EBDBD7 = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +106,10 @@
 		7EDA890D1BA92E8600EBDBD7 /* BigScreenVideos */ = {
 			isa = PBXGroup;
 			children = (
+				7E221C551BA9322000844123 /* Model */,
+				7E221C561BA9322700844123 /* View */,
+				7E221C571BA9323500844123 /* Controller */,
 				7EDA890E1BA92E8600EBDBD7 /* AppDelegate.swift */,
-				7EDA89101BA92E8600EBDBD7 /* FirstViewController.swift */,
-				7EDA89121BA92E8600EBDBD7 /* SecondViewController.swift */,
 				7EDA89141BA92E8600EBDBD7 /* Main.storyboard */,
 				7EDA89171BA92E8600EBDBD7 /* Assets.xcassets */,
 				7EDA89191BA92E8600EBDBD7 /* Info.plist */,
@@ -195,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E221C5B1BA9356C00844123 /* NetworkController.swift in Sources */,
 				7EDA89131BA92E8600EBDBD7 /* SecondViewController.swift in Sources */,
+				7E221C591BA9328C00844123 /* Video.swift in Sources */,
 				7EDA890F1BA92E8600EBDBD7 /* AppDelegate.swift in Sources */,
 				7EDA89111BA92E8600EBDBD7 /* FirstViewController.swift in Sources */,
 			);
@@ -379,6 +411,7 @@
 				7EDA89291BA92E8600EBDBD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EDA892A1BA92E8600EBDBD7 /* Build configuration list for PBXNativeTarget "BigScreenVideosTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +420,7 @@
 				7EDA892C1BA92E8600EBDBD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
