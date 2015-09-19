@@ -26,7 +26,7 @@
                                     <constraint firstAttribute="width" secondItem="MId-hX-aQa" secondAttribute="height" multiplier="16:9" id="0mS-YU-La4"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
                                 <rect key="frame" x="883" y="768" width="154" height="43"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
@@ -34,8 +34,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1Kr-q9-17R">
-                                <rect key="frame" x="52" y="843" width="1816" height="205"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sAI-qX-APO">
+                                <rect key="frame" x="52" y="768" width="1816" height="280"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sAI-qX-APO">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -66,11 +66,13 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                             <constraint firstItem="MId-hX-aQa" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="8" id="gFg-VU-gb5"/>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="1Kr-q9-17R" secondAttribute="bottom" constant="32" id="iFs-GC-Ydj"/>
+                            <constraint firstItem="1Kr-q9-17R" firstAttribute="top" secondItem="MId-hX-aQa" secondAttribute="bottom" constant="16" id="jta-qO-XVS"/>
                             <constraint firstItem="1Kr-q9-17R" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="32" id="vvV-Y6-cj0"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="gFg-VU-gb5"/>
+                                <exclude reference="vvV-Y6-cj0"/>
                                 <exclude reference="exm-UA-ej4"/>
                             </mask>
                         </variation>

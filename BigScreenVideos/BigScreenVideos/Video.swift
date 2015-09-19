@@ -13,6 +13,7 @@ class Video {
     let title               : String
     let videoURL            : NSURL
     let thumbnailURL        : NSURL
+    var image               : UIImage?
     
     init(title: String, videoURL: NSURL, thumbnailURL: NSURL)
     {
@@ -74,5 +75,27 @@ class Video {
         
         return array
     }
+    
+    func requestImageWithCompletionHandler(completionHandler: UIImage -> Void) {
+        
+        if let existingImage = image {
+            completionHandler(existingImage)
+            return
+        }
+        
+        guard let myData = NSData(contentsOfURL: thumbnailURL) else {
+            self.image = UIImage()
+            completionHandler(self.image!)
+            return
+        }
+        
+        dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) {
+            self.image = UIImage(data: myData)
+            dispatch_async(dispatch_get_main_queue()) {
+                completionHandler(self.image!)
+            }
+        }
+    }
 
 }
+

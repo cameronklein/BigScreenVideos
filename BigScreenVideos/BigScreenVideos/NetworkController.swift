@@ -51,7 +51,10 @@ class NetworkController {
                 }
                 
                 if let json = try? NSJSONSerialization.JSONObjectWithData(myData, options: NSJSONReadingOptions.AllowFragments) as! NSDictionary {
-                    successHandler(json: json)
+                    
+                    dispatch_async(dispatch_get_main_queue()) {
+                        successHandler(json: json)
+                    }
                 }
                 
             default:
