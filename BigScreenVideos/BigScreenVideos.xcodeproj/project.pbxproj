@@ -16,6 +16,9 @@
 		7EDA89181BA92E8600EBDBD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA89171BA92E8600EBDBD7 /* Assets.xcassets */; };
 		7EDA89231BA92E8600EBDBD7 /* BigScreenVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA89221BA92E8600EBDBD7 /* BigScreenVideosTests.swift */; };
 		7EFBA6ED1BADD74A00C6756E /* HCYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBA6EC1BADD74A00C6756E /* HCYoutubeParser.m */; };
+		7EFBA6EF1BADDDDD00C6756E /* VideosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBA6EE1BADDDDD00C6756E /* VideosDataSource.swift */; };
+		7EFBA6F21BADDEFE00C6756E /* VideosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBA6F01BADDEFE00C6756E /* VideosCollectionViewCell.swift */; };
+		7EFBA6F31BADDEFE00C6756E /* VideosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFBA6F11BADDEFE00C6756E /* VideosCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7EFBA6EA1BADD74A00C6756E /* BigScreenVideos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigScreenVideos-Bridging-Header.h"; sourceTree = "<group>"; };
 		7EFBA6EB1BADD74A00C6756E /* HCYoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCYoutubeParser.h; sourceTree = "<group>"; };
 		7EFBA6EC1BADD74A00C6756E /* HCYoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCYoutubeParser.m; sourceTree = "<group>"; };
+		7EFBA6EE1BADDDDD00C6756E /* VideosDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosDataSource.swift; sourceTree = "<group>"; };
+		7EFBA6F01BADDEFE00C6756E /* VideosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosCollectionViewCell.swift; sourceTree = "<group>"; };
+		7EFBA6F11BADDEFE00C6756E /* VideosCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideosCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				7EDA89101BA92E8600EBDBD7 /* FirstViewController.swift */,
+				7EFBA6EE1BADDDDD00C6756E /* VideosDataSource.swift */,
 				7EDA89121BA92E8600EBDBD7 /* SecondViewController.swift */,
 				7E221C5A1BA9356C00844123 /* NetworkController.swift */,
+				7EFBA6F01BADDEFE00C6756E /* VideosCollectionViewCell.swift */,
+				7EFBA6F11BADDEFE00C6756E /* VideosCollectionViewCell.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -224,6 +233,7 @@
 			files = (
 				7EDA89181BA92E8600EBDBD7 /* Assets.xcassets in Resources */,
 				7EDA89161BA92E8600EBDBD7 /* Main.storyboard in Resources */,
+				7EFBA6F31BADDEFE00C6756E /* VideosCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +253,8 @@
 			files = (
 				7E221C5B1BA9356C00844123 /* NetworkController.swift in Sources */,
 				7EFBA6ED1BADD74A00C6756E /* HCYoutubeParser.m in Sources */,
+				7EFBA6F21BADDEFE00C6756E /* VideosCollectionViewCell.swift in Sources */,
+				7EFBA6EF1BADDDDD00C6756E /* VideosDataSource.swift in Sources */,
 				7EDA89131BA92E8600EBDBD7 /* SecondViewController.swift in Sources */,
 				7E221C591BA9328C00844123 /* Video.swift in Sources */,
 				7EDA890F1BA92E8600EBDBD7 /* AppDelegate.swift in Sources */,

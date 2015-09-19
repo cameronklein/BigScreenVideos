@@ -10,15 +10,15 @@ import UIKit
 
 class Video {
     
-    let title        : String
-    let videoURL     : NSURL
-    let thumbURL     : NSURL
+    let title               : String
+    let videoURL            : NSURL
+    let thumbnailURL        : NSURL
     
-    init(title: String, videoURL: NSURL, thumbURL: NSURL)
+    init(title: String, videoURL: NSURL, thumbnailURL: NSURL)
     {
         self.title = title;
         self.videoURL = videoURL
-        self.thumbURL = thumbURL
+        self.thumbnailURL = thumbnailURL
     }
     
     class func videosFromJSON(json: NSDictionary) -> [Video]
@@ -57,11 +57,19 @@ class Video {
                 break
             }
             
+            guard let domain = videoURL.host else {
+                break
+            }
+            
+            guard domain.rangeOfString("youtu") != nil else {
+                break
+            }
+            
             guard let thumbURL = NSURL(string: thumbString) else {
                 break
             }
             
-            array.append(Video(title: title, videoURL: videoURL, thumbURL: thumbURL))
+            array.append(Video(title: title, videoURL: videoURL, thumbnailURL: thumbURL))
         }
         
         return array
