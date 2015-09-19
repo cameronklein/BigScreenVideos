@@ -15,6 +15,7 @@
 		7EDA89161BA92E8600EBDBD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA89141BA92E8600EBDBD7 /* Main.storyboard */; };
 		7EDA89181BA92E8600EBDBD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA89171BA92E8600EBDBD7 /* Assets.xcassets */; };
 		7EDA89231BA92E8600EBDBD7 /* BigScreenVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA89221BA92E8600EBDBD7 /* BigScreenVideosTests.swift */; };
+		7EFBA6ED1BADD74A00C6756E /* HCYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBA6EC1BADD74A00C6756E /* HCYoutubeParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		7EDA891E1BA92E8600EBDBD7 /* BigScreenVideosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigScreenVideosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDA89221BA92E8600EBDBD7 /* BigScreenVideosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigScreenVideosTests.swift; sourceTree = "<group>"; };
 		7EDA89241BA92E8600EBDBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFBA6EA1BADD74A00C6756E /* BigScreenVideos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigScreenVideos-Bridging-Header.h"; sourceTree = "<group>"; };
+		7EFBA6EB1BADD74A00C6756E /* HCYoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCYoutubeParser.h; sourceTree = "<group>"; };
+		7EFBA6EC1BADD74A00C6756E /* HCYoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCYoutubeParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		7EDA890D1BA92E8600EBDBD7 /* BigScreenVideos */ = {
 			isa = PBXGroup;
 			children = (
+				7EFBA6E91BADD73000C6756E /* HCYoutubeParser */,
 				7E221C551BA9322000844123 /* Model */,
 				7E221C561BA9322700844123 /* View */,
 				7E221C571BA9323500844123 /* Controller */,
@@ -113,6 +118,7 @@
 				7EDA89141BA92E8600EBDBD7 /* Main.storyboard */,
 				7EDA89171BA92E8600EBDBD7 /* Assets.xcassets */,
 				7EDA89191BA92E8600EBDBD7 /* Info.plist */,
+				7EFBA6EA1BADD74A00C6756E /* BigScreenVideos-Bridging-Header.h */,
 			);
 			path = BigScreenVideos;
 			sourceTree = "<group>";
@@ -124,6 +130,15 @@
 				7EDA89241BA92E8600EBDBD7 /* Info.plist */,
 			);
 			path = BigScreenVideosTests;
+			sourceTree = "<group>";
+		};
+		7EFBA6E91BADD73000C6756E /* HCYoutubeParser */ = {
+			isa = PBXGroup;
+			children = (
+				7EFBA6EB1BADD74A00C6756E /* HCYoutubeParser.h */,
+				7EFBA6EC1BADD74A00C6756E /* HCYoutubeParser.m */,
+			);
+			name = HCYoutubeParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +185,7 @@
 		7EDA89031BA92E8600EBDBD7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Cameron Klein";
 				TargetAttributes = {
@@ -226,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E221C5B1BA9356C00844123 /* NetworkController.swift in Sources */,
+				7EFBA6ED1BADD74A00C6756E /* HCYoutubeParser.m in Sources */,
 				7EDA89131BA92E8600EBDBD7 /* SecondViewController.swift in Sources */,
 				7E221C591BA9328C00844123 /* Video.swift in Sources */,
 				7EDA890F1BA92E8600EBDBD7 /* AppDelegate.swift in Sources */,
@@ -349,10 +366,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BigScreenVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cameronklein.BigScreenVideos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BigScreenVideos/BigScreenVideos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -361,10 +381,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BigScreenVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cameronklein.BigScreenVideos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BigScreenVideos/BigScreenVideos-Bridging-Header.h";
 			};
 			name = Release;
 		};
